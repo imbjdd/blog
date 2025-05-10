@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Assure que le body et html prennent toute la hauteur de la fenêtre */
+}
+
+body {
+    position: relative;
+}
